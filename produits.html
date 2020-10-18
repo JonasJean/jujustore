@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PRODUITS</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="return afficherDate();">
+	<nav class="navbar">
+        <div class="miniN band">JUJU STORE</div>
+        <div class="miniN">
+             <p id="heure"></p>
+        </div>
+        <div class="miniN">
+        	<ul>
+				<li><a href="index.html">ACCUEIL</a></li>
+				<li class="active"><a href="produits.html">PRODUITS</a></li>
+				<li><a href="loisir.html">LOISIR</a></li>
+			    <li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+        <div class="miniN">
+			<div class="cart-btn" id="cart">
+                <img class="cart-img" src="img/panier2.png" alt="">
+                <div class="cart-item">0</div>
+            </div>
+        </div>
+    </nav>
+    <section>
+    	<div class="shopBanner">
+    		<img src="img/cover3.jpg">
+    	</div>
+    </section>
+    <section class="products" id="popular-products">
+	    <section class="categorie">
+	    	<div>
+	    		<p>CATEGORIE PRODUITS</p>
+	    	</div>
+	    	<div class="btn-group">
+			  <a class="button blue" href="#VetementsHommes"> VETEMENTS HOMMES </a>
+			  <a class="button gray" href="#VetementsFemmes"> VETEMENTS FEMMES </a>
+			  <a class="button blue" href="#Accessoires"> ACCESSOIRES </a>              
+              <a class="button gray" href="productAll.html"> VOIR TOUT </a>
+			</div>
+			<p style="clear:both"><br></p>
+	    </section>
+	    <div class="ancre" id="VetementsHommes">    	
+	    </div>
+        <h1 style="text-align: center;">VETEMENTS HOMMES</h1>
+        <div class="list-products " >
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/t-shirt1.png" class="img-product">
+                </div>
+                <hr>
+                <h3> MAILLOT SIMPLE</h3>
+                <h4>ht500.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/t-shirt2.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> MAILLOT NIKE</h3>
+                <h4>ht1.475.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/t-shirt3.png" class="img-product">
+                </div>
+                <hr>
+                <h3> MAILLOT</h3>
+                <h4>ht1.200.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/t-shirt4.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> MAILLOT</h3>
+                <h4>ht275.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/t-shirt5.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> MAILLOT</h3>
+                <h4>ht580.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/men10.png" class="img-product">
+                </div>
+                <hr>
+                <h3> MAILLOT</h3>
+                <h4>ht214.000</h4>
+            </article>        
+        </div>
+        <div class="ancre"  id="VetementsFemmes">          
+        </div>
+        <h1 style="text-align: center; ">VETEMENTS FEMMES</h1>
+        <div class="list-products ">
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/femme1.png" class="img-product">
+                </div>
+                <hr>
+                <h3> ROBE1</h3>
+                <h4>ht500.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/femme2.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> CHEMISE</h3>
+                <h4>ht1.475.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/femme3.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> ROBE2</h3>
+                <h4>ht1.200.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/femme4.png" class="img-product">
+                </div>
+                <hr>
+                <h3> MAILLOT</h3>
+                <h4>ht275.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/femmes4.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> MAILLOT SIMPLE</h3>
+                <h4>ht580.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/femme10.png" class="img-product">
+                </div>
+                <hr>
+                <h3> CUCCI</h3>
+                <h4>ht214.000</h4>
+            </article>        
+        </div>
+
+        <div class="ancre"  id="Accessoires">          
+        </div>
+        <h1 style="text-align: center; ">ACCESSOIRES</h1>
+        <div class="list-products " >
+            
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/laptop.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> LAPTOP</h3>
+                <h4>ht500.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/montre.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> MONTRE INTELLIGENTE</h3>
+                <h4>ht1.475.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/speaker.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> SPEAKER</h3>
+                <h4>ht1.200.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/tv.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> TELEVISION</h3>
+                <h4>ht275.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/smartMontre.jpg" class="img-product">
+                </div>
+                <hr>
+                <h3> SMART MONTRE</h3>
+                <h4>ht580.000</h4>
+            </article>
+            <article class="product">
+                <div class="img-container">
+                    <button class="ajout" id="ajout">+</button>
+                    <img src="img/iphone.png" class="img-product">
+                </div>
+                <hr>
+                <h3> IPHONE</h3>
+                <h4>ht214.000</h4>
+            </article>        
+        </div>
+    </section>
+
+
+
+    <div class="overlay">
+        <div class="total-cart">
+            <br><span class="x">X</span>
+            <div class="your-cart">
+                <h1>Your Cart</h1>
+                <div class="cart-content">
+                </div>
+                <div class="cart-footer">
+                    Total: ht<span class="total">0</span><br>
+                    <button class="reset">RESET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="goToTop()" id="scrollBtn">GO UP</button>
+    <footer>
+        <div class="footer">
+            Powered by Jonas JEAN. Copyright &copy; 2020
+        </div>
+    </footer>    
+    <script src="script.js"></script>
+</body>
+</html>
